@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
-import DetalleProducto from '../../Assets/12.jpeg';
+import DetalleProducto from '../../Assets/12.png';
 import {useContext} from "react";
 import {DataContext} from '../../Context/ConversoContext';
 

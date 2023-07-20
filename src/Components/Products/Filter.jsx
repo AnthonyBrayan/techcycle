@@ -8,7 +8,8 @@ const Filter = ({ handleFilter }) => {
   const [selectedPrice, setSelectedPrice] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('');
 
-  const handlePriceFilter = (event) => {
+
+const handlePriceFilter = (event) => {
     const price = event.target.value;
     setSelectedPrice(price);
     filterProducts(price, selectedCategory);
@@ -31,7 +32,7 @@ const Filter = ({ handleFilter }) => {
     }
 
     if (category) {
-      filteredProducts = filteredProducts.filter((product) => product.category === category);
+      filteredProducts = filteredProducts.filter((product) => product.type === category);
     }
 
     setFilteredProducts(filteredProducts);
@@ -56,10 +57,12 @@ const Filter = ({ handleFilter }) => {
       <br />
       <label htmlFor="category">Category:</label>
       <select id="category" onChange={handleCategoryFilter} value={selectedCategory}>
-        <option value="">All</option>
-        <option value="Mujer">Mujer</option>
-        <option value="Niños">Niños</option>
-        <option value="Unisex">Unisex</option>
+        <option value="">Todos</option>
+        <option value="Ordenadores">Ordenadores</option>
+        <option value="Auriculares">Auriculares</option>
+        <option value="Microfonos">Micrófonos</option>
+        <option value="Monitores">Monitores</option>
+         <option value="Accesorios">Accesorios</option>
       </select>
       <div className="filtered-products-container">
         {filteredProducts.length > 0 ? (

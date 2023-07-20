@@ -126,7 +126,7 @@ export default function NavBar() {
           >
             <ThemeProvider theme={theme}>
             <Button color='primary' varian ='outline' component={Link} to='/'>
-              CONVERSO
+              TECHCYCLE
             </Button>
             </ThemeProvider>
           </Typography>
@@ -167,27 +167,27 @@ export default function NavBar() {
         sx={{ width: drawerWidth }}
       >
         <DrawerContainer>
-          <List>
+        <List>
             <ListItem Button component={Link} to= "/Products" >
-              <ListItemText primary="Mujer" />
+              <ListItemText primary="Best Offers" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Hombre" />
+              <ListItemText primary="Laptops" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Niños" />
+              <ListItemText primary="Computer Components" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Personalizar" />
+              <ListItemText primary="Keyboards" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Edicion Limitada" />
+              <ListItemText primary="Mice" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Explorar" />
+              <ListItemText primary="Webcams" />
             </ListItem>
             <ListItem button>
-              <ListItemText primary="Rebajas" />
+              <ListItemText primary="Accessories" />
             </ListItem>
           </List>
         </DrawerContainer>
