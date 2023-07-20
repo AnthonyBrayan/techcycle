@@ -1,7 +1,7 @@
 import React from 'react'
 
 import {useContext} from "react";
-import {DataContext} from '../../Context/ConversoContext';
+import {DataContext} from '../../Context/DataContext';
 
 const TotalItems = () => {
    const { cart } = useContext (DataContext);

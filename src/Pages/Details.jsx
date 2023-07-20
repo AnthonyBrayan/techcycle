@@ -6,7 +6,7 @@ import Socials from '../Components/Footer/Socials'
 import BannerBottom from '../Components/Home/BannerBottom'
 import { useParams } from 'react-router-dom'
 import {useContext} from "react";
-import {DataContext} from '../Context/ConversoContext';
+import {DataContext} from '../Context/DataContext';
 
 export default function Details (){
 const {id} = useParams();
