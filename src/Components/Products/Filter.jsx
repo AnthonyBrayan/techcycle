@@ -81,7 +81,7 @@ const handlePriceFilter = (event) => {
             </div>
           ))
         ) : (
-          <p>No products found.</p>
+          <p>-</p>
         )}
       </div>
     </div>
