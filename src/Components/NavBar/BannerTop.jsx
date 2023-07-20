@@ -45,7 +45,7 @@ const BannerTop = () => {
       <BannerText variant="h6">
           Upgrade with Sustainable Tech Solutions
         </BannerText>
-      <Link href="/ayuda" color="inherit">
+      <Link href="/Help" color="inherit">
         Help
       </Link>
     </BannerWrapper>
