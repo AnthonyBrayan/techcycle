@@ -13,17 +13,17 @@ function FooterData() {
       <section className="container__servicios">
         <div className="main__envio">
           <img className="icono__caja" src={cajaEnvio} alt="caja" />
-          <h3>Envío rápido y gratuito</h3>
+          <h3>Fast and Free Shipping</h3>
         </div>
 
         <div className="main__devoluciones">
           <img className="icono__devolucion" src= {devolucion} alt="devolución" />
-          <h3>Devoluciones sencillas</h3>
+          <h3>Easy Returns</h3>
         </div>
 
         <div className="main__seguimiento">
           <img className="icono__calendario" src={calendario} alt="calendario" />
-          <h3>Haz un seguimiento de tu pedido</h3>
+          <h3>Track Your Order</h3>
         </div>
       </section>
 

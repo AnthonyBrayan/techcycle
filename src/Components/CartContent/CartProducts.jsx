@@ -16,9 +16,8 @@ const CartProducts = () =>{
 
       <><img className="emptyCart" src={imagen} alt="" /><><h2>
 
-          No dejes tu carro vacío.
-        </h2><h3>Echa un vistazo a tus favoritos,
-          compra lo nuevo y lo mejor o personaliza unas Converse clásicas.</h3></></>
+          Don't leave your cart empty
+        </h2><h3>Don't Miss Out! Fill Your Cart with Sustainable Tech Gear Now!</h3></></>
     );
 };
 

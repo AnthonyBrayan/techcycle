@@ -36,15 +36,13 @@ function Socials() {
 
       {/* COPYR. */}
       <div className="copy">
-        <div className="politica">
-          <p>Política de privacidad, condiciones y Cookies</p>
-        </div>
+        
 
         <div className="fcopy">
         
           <img className="imgcopy" src={iconoCopy} alt="#" />
       
-          <p>2023 Converso</p>
+          <p>2023 Techcycle</p>
         </div>
       </div>
     </footer>

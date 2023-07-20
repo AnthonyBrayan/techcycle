@@ -43,10 +43,10 @@ const BannerTop = () => {
       
       </Box>
       <BannerText variant="h6">
-          -15% PARA NUEVOS CLIENTES ¡REGISTRATE AHORA!
+          Upgrade with Sustainable Tech Solutions
         </BannerText>
       <Link href="/ayuda" color="inherit">
-        Ayuda
+        Help
       </Link>
     </BannerWrapper>
   );
