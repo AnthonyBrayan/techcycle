@@ -4,6 +4,7 @@ import Products from './Pages/Products';
 import Details from './Pages/Details';
 import NoPage from './Pages/NoPage';
 import Cart from './Pages/Cart.jsx';
+import Help from './Pages/Help';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/Details/:id" element={<Details />} />
           <Route path="/Cart" element={<Cart />} />
           <Route path="*" element={<NoPage />} />
+          <Route path="Help" element={<Help />} />
         </Routes>
       </BrowserRouter>
 
