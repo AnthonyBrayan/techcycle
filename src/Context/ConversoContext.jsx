@@ -14,7 +14,7 @@ const DataProvider = ({children}) => {
 
         const buyProduct = (product) => {
    
-            const productrepeat = cart.find((item)=> item.id === product.id) // find repeat products and store it in a variable
+            const productrepeat = cart.find((item)=> item.id === product.id)
          
             if(productrepeat){
                setCart(cart.map((item)=> item.id === product.id ? {...product, quantity: productrepeat.quantity + 1} : item))

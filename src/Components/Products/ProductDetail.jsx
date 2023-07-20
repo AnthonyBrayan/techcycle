@@ -8,6 +8,7 @@ import Select from '@mui/material/Select';
 import DetalleProducto from '../../Assets/12.png';
 import {useContext} from "react";
 import {DataContext} from '../../Context/ConversoContext';
+import "./ProductDetail.css";
 
 const ProductDetailWrapper = styled(Container)(({ theme }) => ({
   marginTop: theme.spacing(4),
@@ -31,12 +32,14 @@ const ButtonWrapper = styled('div')(({ theme }) => ({
 }));
 
 const ProductDetail = (id) => {
-  const [selectedSize, setSelectedSize] = React.useState('');
- 
+  
+  const { buyProduct } = useContext(DataContext);
 
-  const handleSizeChange = (event) => {
-    setSelectedSize(event.target.value);
+  const handleAddToCart = () => {
+    buyProduct(id.id);
   };
+
+ 
 
   return (
 
@@ -49,24 +52,15 @@ const ProductDetail = (id) => {
         <Typography variant="body1" gutterBottom>
         {id.id.description}
         </Typography>
+        <Typography variant="h5" gutterBottom>
+          Precio: €{id.id.price}
+        </Typography>
         <ButtonWrapper>
-          <Select
-            value={selectedSize}
-            onChange={handleSizeChange}
-            displayEmpty
-            sx={{ marginBottom: '16px' }}
-          >
-            <MenuItem value="" disabled>
-              Seleciona tu talla
-            </MenuItem>
-            <MenuItem value="36">36</MenuItem>
-            <MenuItem value="37">37</MenuItem>
-            <MenuItem value="38">38</MenuItem>
-            <MenuItem value="39">39</MenuItem>
-            <MenuItem value="40">40</MenuItem>
-          </Select>
-          <Button variant="contained" sx={{ backgroundColor: '#000', color: '#fff' }}>
-            Agregar al carrito
+          <Button 
+          variant="contained" 
+          className="customButton"
+          onClick={handleAddToCart}>
+            Add To Cart
           </Button>
         </ButtonWrapper>
       </ProductContent>
