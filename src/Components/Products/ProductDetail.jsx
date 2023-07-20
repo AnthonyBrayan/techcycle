@@ -47,7 +47,7 @@ const ProductDetail = (id) => {
         {id.id.title}
         </Typography>
         <Typography variant="body1" gutterBottom>
-          Descripción del producto.
+        {id.id.description}
         </Typography>
         <ButtonWrapper>
           <Select

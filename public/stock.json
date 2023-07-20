@@ -47,6 +47,7 @@
     "title": "Logitech MX Master 3 Wireless Mouse",
     "price": 100,
     "type": "Accessories",
+    "description": "An advanced wireless mouse with customizable buttons and precise tracking, ideal for professional users.",
     "quantity": 1
     },
     {
@@ -56,6 +57,7 @@
     "title": "Apple AirPods Pro Wireless Headphones",
     "price": 250,
     "type": "Headphones",
+    "description": "Premium true wireless earbuds from Apple with active noise-canceling and excellent sound quality.",
     "quantity": 1
     },
     
@@ -67,6 +69,7 @@
     "title": "Lenovo Yoga 2-in-1 Convertible Laptop",
     "price": 700,
     "type": "Computers",
+    "description": "A flexible 2-in-1 laptop that can convert into a tablet mode, perfect for work and on-the-go use.",
     "quantity": 1
     },
     
@@ -78,6 +81,7 @@
     "title": "Samsung Galaxy Buds Pro",
     "price": 180,
     "type": "Headphones",
+    "description": "True wireless earbuds with intelligent ANC and water-resistant design, delivering clear sound and a comfortable fit.",
     "quantity": 1
     },
     
@@ -89,6 +93,7 @@
     "title": "Razer BlackWidow V3 Gaming Keyboard",
     "price": 150,
     "type": "Accessories",
+    "description": "A mechanical gaming keyboard with customizable RGB lighting and advanced gaming features.",
     "quantity": 1
     },
     
@@ -100,6 +105,7 @@
     "title": "Apple MacBook Air",
     "price": 1200,
     "type": "Computers",
+    "description": "A sleek and lightweight laptop with powerful performance, perfect for everyday tasks and creative work.",
     "quantity": 1
     },
     
@@ -111,6 +117,7 @@
     "title": "Samsung Odyssey G9 Curved Gaming Monitor",
     "price": 1500,
     "type": "Monitors",
+    "description": "An ultrawide curved gaming monitor with a high refresh rate and immersive visual experience.",
     "quantity": 1
     },
     
@@ -122,6 +129,7 @@
     "title": "Bose QuietComfort 35 II Wireless Headphones",
     "price": 300,
     "type": "Headphones",
+    "description":"Premium wireless headphones with exceptional noise-canceling technology for a peaceful listening experience.", 
     "quantity": 1
     }
     ]
