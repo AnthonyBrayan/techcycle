@@ -125,7 +125,7 @@ export default function NavBar() {
             sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block', fontWeight: 'bold', color:'black', marginLeft: 60 } }}
           >
             <ThemeProvider theme={theme}>
-            <Button color='primary' varian ='outline' component={Link} to='/'>
+            <Button color='primary' varian ='outline' component={Link} to='/' sx={{ backgroundColor: '#6de2c8', color: '#000' }}>
               TECHCYCLE
             </Button>
             </ThemeProvider>
