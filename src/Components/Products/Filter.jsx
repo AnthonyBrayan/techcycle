@@ -57,12 +57,12 @@ const handlePriceFilter = (event) => {
       <br />
       <label htmlFor="category">Category:</label>
       <select id="category" onChange={handleCategoryFilter} value={selectedCategory}>
-        <option value="">Todos</option>
-        <option value="Ordenadores">Ordenadores</option>
-        <option value="Auriculares">Auriculares</option>
-        <option value="Microfonos">Micrófonos</option>
-        <option value="Monitores">Monitores</option>
-         <option value="Accesorios">Accesorios</option>
+        <option value="">All</option>
+        <option value="Ordenadores">Computers</option>
+        <option value="Auriculares">Headphones</option>
+        <option value="Microfonos">Microphones</option>
+        <option value="Monitores">Monitors</option>
+         <option value="Accesorios">Accessories</option>
       </select>
       <div className="filtered-products-container">
         {filteredProducts.length > 0 ? (
