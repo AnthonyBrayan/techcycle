@@ -9,7 +9,7 @@ const ContactForm = () => {
         <div className="contact-info">
           <h3 className="title">Let's get in touch</h3>
           <p className="text">
-            Hola si tienes dudas y quieres informacion contactanos y te lo resolveremos sin problema...
+          Hello, if you have questions and want information, contact us and we will solve it for you without problem...
           </p>
 
           <div className="info">
@@ -19,7 +19,7 @@ const ContactForm = () => {
             </div>
             <div className="information">
               <img src="img/bx-envelope.svg" className="icon" alt="" />
-              <p>2023.Sense.2023@gmail.com</p>
+              <p>2023.techcycle.2023@gmail.com</p>
             </div>
             <div className="information">
               <img src="img/bx-phone.svg" className="icon" alt="" />
