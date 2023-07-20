@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { DataContext } from '../../Context/ConversoContext';
+import { DataContext } from '../../Context/DataContext';
 import './Filter.css';
 
 const Filter = ({ handleFilter }) => {
@@ -81,7 +81,7 @@ const handlePriceFilter = (event) => {
             </div>
           ))
         ) : (
-          <p>No products found.</p>
+          <p>-</p>
         )}
       </div>
     </div>

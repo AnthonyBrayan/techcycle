@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { DataContext } from "../../Context/ConversoContext";
+import { DataContext } from "../../Context/DataContext";
 
 const CartTotal = () => {
     const { cart } = useContext(DataContext);
