@@ -7,7 +7,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
 import {useContext} from "react";
 import {DataContext} from '../../Context/DataContext';
-import "./ProductDetail.css";
+
 
 const ProductDetailWrapper = styled(Container)(({ theme }) => ({
   marginTop: theme.spacing(4),

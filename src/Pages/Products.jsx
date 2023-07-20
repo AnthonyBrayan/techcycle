@@ -6,6 +6,7 @@ import FooterData from '../Components/Footer/FooterData'
 import Socials from '../Components/Footer/Socials'
 
 
+
 export default function Products (){
    return (
       <div>
